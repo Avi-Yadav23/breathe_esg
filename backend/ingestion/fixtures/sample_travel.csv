@@ -1,0 +1,13 @@
+trip_id,traveler_id,traveler_name,trip_type,departure_date,return_date,origin_iata,destination_iata,travel_class,airline,hotel_name,hotel_city,hotel_checkin,hotel_checkout,hotel_nights,ground_transport_type,ground_transport_km,cost_usd,currency
+TRP-001,EMP-042,Anna Schmidt,flight,2024-01-15,2024-01-17,BER,LHR,economy,British Airways,,,,,,,, 820.00,EUR
+TRP-001,EMP-042,Anna Schmidt,hotel,2024-01-15,2024-01-17,,,,,"The Ritz London",London,2024-01-15,2024-01-17,2,,,,380.00,GBP
+TRP-002,EMP-107,Marcus Lee,flight,2024-01-22,,FRA,JFK,business,Lufthansa,,,,,,,, 3200.00,EUR
+TRP-002,EMP-107,Marcus Lee,hotel,2024-01-22,2024-01-25,,,,,"Marriott Times Square",New York,2024-01-22,2024-01-25,3,,,,1200.00,USD
+TRP-003,EMP-055,Priya Patel,ground,2024-02-03,,,,,,,,,,, taxi,45,,85.00,EUR
+TRP-004,EMP-088,Jonas Weber,flight,2024-02-10,,MUC,DXB,economy,Emirates,,,,,,,, 1100.00,EUR
+TRP-004,EMP-088,Jonas Weber,flight,2024-02-10,,MUC,,economy,Emirates,,,,,,,, 950.00,EUR
+TRP-005,EMP-201,Sophie Müller,flight,2024-03-05,2024-03-08,FRA,SIN,,Lufthansa,,,,,,,, 2800.00,EUR
+TRP-005,EMP-201,Sophie Müller,hotel,2024-03-05,2024-03-08,,,,,"Marina Bay Sands",Singapore,2024-03-05,2024-03-08,3,,,,1500.00,SGD
+TRP-006,EMP-145,David Kim,flight,2024-03-20,,ICN,LHR,business,Korean Air,,,,,,,, 2200.00,USD
+TRP-006,EMP-145,David Kim,hotel,2024-03-20,2024-03-22,,,,,"The Langham London",London,2024-03-20,2024-03-22,2,,,,890.00,GBP
+TRP-006,EMP-145,David Kim,ground,2024-03-22,,,,,,,,,,, train,120,,45.00,GBP
