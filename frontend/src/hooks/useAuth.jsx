@@ -12,7 +12,7 @@ export function AuthProvider({ children }) {
     const token = localStorage.getItem('token')
     if (!token) { setLoading(false); return }
     getMe()
-      .then((data) => { setUser(data.user); setTenant(data.tenant) })
+      .then((data) => { setUser(data); setTenant(data.tenant) })
       .catch(() => localStorage.removeItem('token'))
       .finally(() => setLoading(false))
   }, [])
@@ -20,8 +20,8 @@ export function AuthProvider({ children }) {
   const login = async (username, password) => {
     const data = await apiLogin(username, password)
     localStorage.setItem('token', data.token)
-    setUser(data.user)
     const me = await getMe()
+    setUser(me)
     setTenant(me.tenant)
     return data
   }
